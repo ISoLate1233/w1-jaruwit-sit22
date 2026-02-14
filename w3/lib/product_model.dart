@@ -6,6 +6,7 @@ class Product {
   final int weight;
   final String description;
 
+
   Product({required this.id, required this.name, required this.photo,required this.price,required this.weight,required this.description});
 
   factory Product.formJson(Map<String, dynamic> json) {
